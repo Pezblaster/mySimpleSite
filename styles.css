@@ -1,0 +1,44 @@
+h1{color:red;}
+body{background-color: sandybrown;}
+article {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #45ffc4;
+    color: #fff;
+
+    form-example {
+        display:table;
+    }
+    
+    div.form-example {
+        display: table-row;
+    }
+    
+    label,
+    input {
+        display: table-cell;
+        margin-bottom: 10px;
+    }
+    
+    label {
+        padding-right: 10px;
+    }
+
+    p {
+        margin: 10px 0;
+        padding: 5px;
+        border: 1px solid #999;
+    }
+    h1,
+h2 {
+    margin: 0;
+}
+
+    
